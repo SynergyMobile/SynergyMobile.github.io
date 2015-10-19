@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-header">Guides</h1>
+        </div>
+    </div>
+    <h3>Main.js Example Block</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <div hljs language="javascript">var app = angular.module('SynergyWay', ['ngRoute', 'hljs']);
+
+app.config(['$routeProvider', function ($routeProvider) {
+    $routeProvider
+        .when('/', {templateUrl: 'html/main.html', controller: 'PageCtrl'})
+        .when('/guides', {templateUrl: 'html/guides/guides.html', controller: 'PageCtrl'})
+        .when('/practices', {templateUrl: 'html/practices/practices.html', controller: 'PageCtrl'});
+}]);
+
+app.controller('PageCtrl', function () {});</div>
+        </div>
+    </div>
+</div>

@@ -1,2 +1,2 @@
 # SynergyMobile.github.io
-Best ways at synergy
+A collection of best practices maintained by Synergy developers.
